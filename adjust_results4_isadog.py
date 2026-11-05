@@ -1,13 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND-revision/intropyproject-classify-pet-images/adjust_results4_isadog.py
-#
-# PROGRAMMER: Tariro Faith Munzwa
-# DATE CREATED: 2026-11-01
-# REVISED DATE: 2026-11-02
-# PURPOSE: Add flags to each image result indicating whether the pet label and
-#          classifier label identify a dog.
-#
+
 def adjust_results4_isadog(results_dic, dogfile):
     """
     Adds dog/non-dog flags to each image result.
